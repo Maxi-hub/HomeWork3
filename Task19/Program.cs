@@ -8,7 +8,7 @@ if (10000 > number || number >= 100000)
    Console.WriteLine("Введено не пятизначное число. Попробуй еще раз"); 
 }
 
-if (10000 <= number || number < 100000)
+else if (10000 <= number || number < 100000)
 {
     string num = number.ToString();
 
